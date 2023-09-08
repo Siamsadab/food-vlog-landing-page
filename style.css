@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.hamburger{
+    display: none;
+}
+.logo h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+.logogreen{
+    color: green;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menu ul li{
+    font-family: 'Playfair Display', serif;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* <!-- ================ hero section =================== -->    */
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+.image{
+    flex-basis: 70%;
+}
+.image img{
+     width: 100%;
+}
+.green-side{
+    flex-basis: 30%;
+    background-color: green;
+    height: 100%;
+    position: relative;
+}
+.content-box{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.content-box p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(149, 149, 149, 1);
+}
+.content-box h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-top: 15px;
+}
+.content-box {
+    transform: translatex(-370px);
+    -webkit-transform: translatex(-370px);
+    -moz-transform: translatex(-370px);
+    -ms-transform: translatex(-370px);
+    -o-transform: translatex(-370px);
+}
+/* <!-- ======================grid section ========================= --> */
+.grid-sec{
+    width: 80%;
+    margin: auto;
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+.card-sec{
+    flex-basis: 70%;
+}
+.post-sec{
+     flex-basis:30%;
+}
+.card-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.card{
+    background-color:rgba(52, 114, 47, 0.15);;
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-bottom: 20px;
+}
+.post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.recent-post h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+.recent-post p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-bottom: 5px;
+}
+.popular-post h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.popular-post   p{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: #3A3A3A;
+    margin-bottom: 5px;
+}
+.content button{
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: green;
+    background-color: transparent;
+    cursor:pointer;
+
+}
+.post{
+    padding-right: 50px;
+}
+
+/* ================ Fooooterrr===================== */
+footer{
+    background-color: #3C7D36; 
+    padding: 70px 0px;
+}
+.footer-sec{
+    width: 80%;
+    margin:auto;
+    background-color:  #3C7D36;
+}
+.footer-sec{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr  2fr;
+}
+.ones{
+    padding-right: 100px;
+}
+.ones h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ones p{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.tows h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.tows ul li{
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.threes h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.threes ul li{
+    list-style-type: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.fours h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.social-icon img{
+    padding-right: 20px;
+}
+
+.last{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
+.last p{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 400;
+}

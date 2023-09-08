@@ -1,0 +1,67 @@
+@media only screen and (max-width: 769px) {
+    .navigation{
+       
+    }
+    .green-side{
+        flex-basis: 20%; 
+    }
+   .content-box {
+      transform: translatex(-50px);
+      -webkit-transform: translatex(-50px);
+      -moz-transform: translatex(-50px);
+      -ms-transform: translatex(-50px);
+      -o-transform: translatex(-50px);
+}
+    .image{
+        flex-basis: 80%;
+    }
+    .content-box{
+        background-color: aliceblue;
+        padding: 25px;
+        width: 260px;
+    }
+    .content-box h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: normal;
+        color: #3A3A3A;
+        margin-top: 15px;
+    }
+    /* <!-- ======================grid section ========================= --> */
+    .grid-sec{
+        width: 90%;
+        flex-direction: column;
+    }
+    .grid-sec{
+        padding: 50px 0px;
+    }
+    .card h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+        color: #3A3A3A;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .post{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    /* ================ Fooooterrr===================== */
+    .footer-sec{
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+    }
+    .threes{
+        order: 4;
+        margin-top: 40px;
+    }
+    .fours{
+        margin-top: 40px;
+    }
+}
